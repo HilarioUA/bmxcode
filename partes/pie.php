@@ -36,7 +36,4 @@
         background-color: black;
         padding-bottom: 2vh;
     }
-    .footer{
-        
-    }
 </style>

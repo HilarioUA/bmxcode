@@ -1,4 +1,5 @@
-<footer>
+<!-- Información del pie de página -->
+<footer class="footer">
     <center>
         <div class="pie">
             <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-youtube" viewBox="0 0 16 16">
@@ -20,6 +21,8 @@
         </div>
     </center>
 </footer>
+<!-- Fin del pie de página -->
+
 
 <style rel="stylesheet">
     .pie {
@@ -32,5 +35,8 @@
     .pie2{
         background-color: black;
         padding-bottom: 2vh;
+    }
+    .footer{
+        
     }
 </style>

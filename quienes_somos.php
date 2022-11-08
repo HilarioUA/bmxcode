@@ -16,4 +16,5 @@
 <body>
 
 </body>
+<?php include('partes/pie.php'); ?>
 </html>

@@ -63,6 +63,6 @@
             </div>
         </div>
     </center>
-</body><br><br><br><br>
+</body><br>
     <?php include 'partes/pie.php'; ?>
 </html>

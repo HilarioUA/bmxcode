@@ -13,7 +13,7 @@
 <body style="background-color: #F8F8F8;">
     <center>
         <div class="container-fluid mt-4 contenido_todo_piezas">
-            <div class="contenido_piezas mt-4 col-md-4"><br><br>
+            <div class="contenido_piezas mt-4 col-md-4"><br><br><br>
                 <img src="img/plato_mision.jpg" width="130" height="130">
                 <div class="nombre_costo">
                     <p>Mision <br> $699</p>

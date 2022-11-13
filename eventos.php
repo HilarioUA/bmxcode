@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
     <script src="css/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body style="background-color: #F8F8F8;">
     <?php include 'partes/cabecera.php'; ?>
 </body>
 </html>

@@ -13,7 +13,7 @@
     <?php include('partes/cabecera.php'); ?>
 </head>
 
-<body>
+<body style="background-color: #F8F8F8;">
 
 </body>
 <?php include('partes/pie.php'); ?>

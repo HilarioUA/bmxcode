@@ -10,17 +10,10 @@
     <script src="css/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <?php include 'partes/cabecera.php'; ?>
 </head>
-<body>
+<body style="background-color: #F8F8F8;">
     <center>
-    <div>
-        <div class="row">.</div>
-        <div class="row">.</div>
-        <div class="row">.</div>
-        <div class="row">.</div>
-        <div class="row">.</div>
-    </div>
-        <div class="container-fluid contenido_todo_piezas">
-            <div class="contenido_piezas col-md-4">
+        <div class="container-fluid mt-4 contenido_todo_piezas">
+            <div class="contenido_piezas mt-4 col-md-4"><br><br>
                 <img src="img/plato_mision.jpg" width="130" height="130">
                 <div class="nombre_costo">
                     <p>Mision <br> $699</p>

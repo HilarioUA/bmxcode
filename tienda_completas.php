@@ -10,17 +10,10 @@
     <script src="css/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <?php include 'partes/cabecera.php'; ?>
 </head>
-<body>
+<body style="background-color: #F8F8F8;">
     <center>
-    <div>
-        <div class="row">.</div>
-        <div class="row">.</div>
-        <div class="row">.</div>
-        <div class="row">.</div>
-        <div class="row">.</div>
-    </div>
-        <div class="contenido_todo_piezas">
-            <div class="contenido_piezas col-md-4">
+        <div class="contenido_todo_piezas mt-4"><br><br><br>
+            <div class="contenido_piezas mt-4 col-md-4">
                 <img src="img/primo.jpg" width="180" height="180">
                 <div class="nombre_costo">
                     <p>Primo <br> $16,599</p>
@@ -45,7 +38,7 @@
                 </div>
             </div>
             <div class="contenido_piezas col-md-4">
-                <img src="img/mongoose.jpg" width="140" height="180">
+                <img src="img/mongoose.jpg" width="180" height="180">
                 <div class="nombre_costo">
                     <p>Mongoose <br> $8,198</p>
                 </div>

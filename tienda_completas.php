@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,59 +11,32 @@
     <script src="css/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <?php include 'partes/cabecera.php'; ?>
 </head>
+
 <body style="background-color: #F8F8F8;">
     <center>
         <div class="contenido_todo_piezas mt-4"><br><br><br>
-            <div class="contenido_piezas mt-4 col-md-4">
-                <img src="img/primo.jpg" width="180" height="180">
-                <div class="nombre_costo">
-                    <p>Primo <br> $16,599</p>
+        
+        <?php
+        include 'bd/mostrarBicicleta.php';
+            
+        $resultado = mysqli_query($conexion, $sql);
+
+        while ($mostrar = mysqli_fetch_array($resultado)) { ?>
+        
+                <div class="contenido_piezas mt-4 col-md-4">
+                    <img src="<?php echo $mostrar['imagen']; ?>" width="160" height="160">
+                    <div class="nombre_costo">
+                        <p><?php echo $mostrar['nombre']; ?> <br> $<?php echo $mostrar['precio']; ?></p>
+                    </div>
                 </div>
-            </div>
-            <div class="contenido_piezas col-md-4">
-                <img src="img/fiend.jpg" width="180" height="180">
-                <div class="nombre_costo">
-                    <p>Fiend <br> $21,819</p>
-                </div>
-            </div>
-            <div class="contenido_piezas col-md-4">
-                <img src="img/tornasol.jpg" width="180" height="180">
-                <div class="nombre_costo">
-                    <p>Tornasol <br> $15,198</p>
-                </div>
-            </div>
-            <div class="contenido_piezas col-md-4">
-                <img src="img/stolen.jpg" width="180" height="180">
-                <div class="nombre_costo">
-                    <p>Stolen <br> $12,299</p>
-                </div>
-            </div>
-            <div class="contenido_piezas col-md-4">
-                <img src="img/mongoose.jpg" width="180" height="180">
-                <div class="nombre_costo">
-                    <p>Mongoose <br> $8,198</p>
-                </div>
-            </div>
-            <div class="contenido_piezas col-md-4">
-                <img src="img/colony.jpg" width="180" height="180">
-                <div class="nombre_costo">
-                    <p>Colony <br> $20,129</p>
-                </div>
-            </div>
-            <div class="contenido_piezas col-md-4">
-                <img src="img/destro.jpg" width="180" height="180">
-                <div class="nombre_costo">
-                    <p>Destro Elite <br> $10,599</p>
-                </div>
-            </div>
-            <div class="contenido_piezas col-md-4">
-                <img src="img/cult.jpg" width="180" height="180">
-                <div class="nombre_costo">
-                    <p>Cult <br> $18,999</p>
-                </div>
-            </div>
+                <?php
+
+            }
+            mysqli_free_result($resultado);
+            ?>
         </div>
     </center>
 </body><br>
-    <?php include 'partes/pie.php'; ?>
+<?php include 'partes/pie.php'; ?>
+
 </html>

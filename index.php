@@ -67,7 +67,7 @@
         </div>
         <?php include('partes/carrusel.php'); ?>
     </div><br>
-
+    <?php include 'partes/pie.php'; ?>
 </body>
 
 </html>

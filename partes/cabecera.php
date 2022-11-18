@@ -38,8 +38,8 @@
                         <a href="#">Ofertas</a>
                         <i class='bx bxs-chevron-down js-arrow arrow '></i>
                         <ul class="js-sub-menu sub-menu">
-                            <li><a href="#">Por piezas</a></li>
-                            <li><a href="#">Completas</a></li>
+                            <li><a href="./oferta_por_piezas.php">Por piezas</a></li>
+                            <li><a href="./oferta_completas.php">Completas</a></li>
                         </ul>
                     </li>
                     <li><a href="./eventos.php">Eventos</a></li>

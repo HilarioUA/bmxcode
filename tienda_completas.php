@@ -24,7 +24,7 @@
         while ($mostrar = mysqli_fetch_array($resultado)) { ?>
         
                 <div class="contenido_piezas mt-4 col-md-4">
-                    <a onclick="mostrar_modal_bicicleas()"><img src=" <?php echo $mostrar['imagen']; ?>" width="160" height="160"></a>
+                    <a href="especifico_bicicleta.php?id=<?php echo $mostrar['idbicicleta']; ?>"><img src=" <?php echo $mostrar['imagen']; ?>" width="160" height="160"></a>
                     <div class="nombre_costo">
                         <p><?php echo $mostrar['nombre']; ?> <br> $<?php echo $mostrar['precio']; ?></p>
                     </div>
@@ -40,8 +40,5 @@
 
 
 <?php include 'partes/pie.php'; ?>
-<?php include 'partes/modalCompletas.php'; ?>
-
-<script src="componentes/modalCompletas.js"></script>
 
 </html>

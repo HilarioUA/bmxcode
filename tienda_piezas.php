@@ -24,7 +24,8 @@
             while ($mostrar = mysqli_fetch_array($resultado)) { ?>
             
                 <div class="contenido_piezas mt-4 col-md-4"><br><br><br>
-                    <img src="<?php echo $mostrar['imagen']; ?>" width="130" height="130">
+                <a href="especifico_pieza.php?id=<?php echo $mostrar['idpieza']; ?>">
+                    <img src="<?php echo $mostrar['imagen']; ?>" width="130" height="130"></a>
                     <div class="nombre_costo">
                         <p><?php echo $mostrar['nombre']; ?> <br> $<?php echo $mostrar['precio']; ?></p>
                     </div>

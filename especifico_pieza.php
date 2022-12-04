@@ -36,8 +36,6 @@ $mostrarPieza = mysqli_fetch_array($resultado);
         <img src="<?php echo $mostrarPieza['imagen']; ?>" width="500">
         <div class="container informacion">
             <span id="nombre"><?php echo $mostrarPieza['nombre']; ?> <span id="precio"> $<?php echo $mostrarPieza['precio']; ?></span></span><br><br>
-            <h4>Descripción:</h4>
-            <span id="descripcion"><?php echo $mostrarPieza['descripcion']; ?></span>
         </div>
     </div>
 

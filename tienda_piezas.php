@@ -18,8 +18,6 @@
             
             <?php
             include 'bd/mostrarPiezas.php';
-            
-            $resultado = mysqli_query($conexion, $sql);
 
             while ($mostrar = mysqli_fetch_array($resultado)) { ?>
             

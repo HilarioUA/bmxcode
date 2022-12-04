@@ -36,9 +36,6 @@ $mostrarBicicleta = mysqli_fetch_array($resultado);
         <img src="<?php echo $mostrarBicicleta['imagen']; ?>" width="500">
         <div class="container informacion">
             <span id="nombre"><?php echo $mostrarBicicleta['nombre']; ?> <span id="precio"> $<?php echo $mostrarBicicleta['precio']; ?></span></span>
-            <h4 class="mt-4"><?php echo $mostrarBicicleta['modelo']; ?></h4><br>
-            <h4>Descripción:</h4>
-            <span id="descripcion"><?php echo $mostrarBicicleta['descripcion']; ?></span>
         </div>
     </div>
 

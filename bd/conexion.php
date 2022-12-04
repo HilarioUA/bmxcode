@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$database = "bmxcode";
+$database = "bmx";
 $username = "root";
 $password = "";
 // Create connection

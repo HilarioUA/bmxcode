@@ -18,8 +18,6 @@
         
         <?php
         include 'bd/mostrarBicicleta.php';
-            
-        $resultado = mysqli_query($conexion, $sql);
 
         while ($mostrar = mysqli_fetch_array($resultado)) { ?>
         
